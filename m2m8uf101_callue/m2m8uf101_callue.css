@@ -1,0 +1,223 @@
+body {
+background-color: #696969;
+}
+.cabeza{
+    width: 30rem;
+    height: 15rem;
+    position: relative;
+    top: 6.5rem;
+    left: 41.5rem;
+    background-color: #2b2b2b;
+    border-radius: 7rem 7rem 7rem 7rem;
+
+}
+
+.brazo1{
+    width: 3rem;
+    height: 9rem;
+    position: relative;
+    top: -0.7rem;
+    left: 45.6rem;
+    background-color: #2b2b2b;
+    border-radius: 0 0 2rem 2rem;
+
+}
+
+.brazo2{
+    width: 3rem;
+    height: 9rem;
+    position: relative;
+    top: -9.8rem;
+    left: 64.3rem;
+    background-color: #2b2b2b;
+    border-radius: 0 0 2rem 2rem;
+
+}
+
+.pecho {
+    width: 22rem;
+    height: 10rem;
+    position: relative;
+    top: 6.5rem;
+    left: 45.5rem;
+    background-color: #1b1a1a;
+    border-radius: 4rem 4rem 0 0;
+
+}
+
+.cabeza::before {
+    content: '';
+    width: 4rem;
+    height: 10rem;
+    background-color: #2b2b2b;
+    position: absolute;
+    top: -2rem;
+    border-radius: 100rem 10rem 0rem 0rem;
+}
+
+.cabeza::before {
+    content: '';
+    width: 4rem;
+    height: 10rem;
+    background-color: #2b2b2b;
+    position: absolute;
+    top: -2rem;
+    border-radius: 5rem 0rem 1rem 2rem;
+
+}
+
+.cabeza::after {
+    content: '';
+    width: 4rem;
+    height: 10rem;
+    background-color: #2b2b2b;
+    position: absolute;
+    top: -2rem;
+    border-radius: 0rem 30rem 0rem 0rem;
+}
+
+.cabeza::after {
+    left: 26rem;
+}
+
+.cara {
+    width: 20rem;
+    height: 5rem;
+    background-color: #f9ca90;
+    border-radius: 20%;
+    position: relative;
+    top: 9rem;
+    left: 5em;
+}
+
+.detalles_cara, .detalles_cara::before {
+    width: 9rem;
+    height: 4.2rem;
+    background-color: #fdfdfde6;
+    border-radius: 0rem 0rem 3rem 3rem;
+    position: relative;
+    top: -5em;
+    left: -0.5em;
+}
+
+.pupila1{
+    width: 1rem;
+    height:1rem;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+    top: -5rem;
+    left: 16rem;
+}
+.pupila2{
+    width: 1rem;
+    height:1rem;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+    top: -6rem;
+    left: 4rem;
+}
+
+.ojos{
+    width: 3rem;
+    height:3rem;
+    background-color: green;
+    border-radius: 100%;
+    position: relative;
+    top: 0;
+    left: 3rem;
+}
+
+.ojos2{
+    width: 3rem;
+    height:3rem;
+    background-color: green;
+    border-radius: 100%;
+    position: relative;
+    top: -3rem;
+    left: 15rem;
+}
+
+.detalles_cara::before{
+    content: '';
+    position: absolute;
+  top: 0;
+    left: 12rem;
+}
+.detalles_cara::after {
+    content: '';
+    width: 9rem;
+    height: 0.9rem;
+    border-style: solid;
+    background-color: #eaeaea;
+    border-color: #212121f5;
+    border-radius: 40%;
+    position: absolute;
+    top: 7rem;
+    left: 5.5rem;
+}
+
+.pierna1{
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+    top: -11.5rem;
+    left: 45.5rem;
+    background-color: #1b1a1a;
+    border-radius: 0 0 4rem 4rem;
+}
+.pierna2{
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+    top: -21.5rem;
+    left: 57.5rem;
+    background-color: #1b1a1a;
+    border-radius: 0 0 4rem 4rem;
+}
+.eyes{
+  animation-name: eyes;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+}
+
+@keyframes eyes{
+from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
