@@ -1,0 +1,194 @@
+ body{
+  background-color: #ADD8E6;
+  margin: 0;
+  padding: 0;
+}
+.luna{
+  width: 200px;
+  height: 200px;
+  background-color: #ADD8E6;
+  border-radius: 100px;
+  box-shadow: -60px 0 0;
+  box-shadow: inset -50px 0 0 0 yellow;
+}
+.montañas{
+
+}
+.montaña1{
+width: 0;
+height: 0;
+border-right: 400px solid transparent;
+border-top: -500px solid transparent;
+border-left: 400px solid transparent;
+border-bottom: 300px solid #f0ad4e;
+position: relative;
+}
+#nube1{
+  width: 250px;
+  height: 150px;
+  background-color: #FFF;
+  border-radius: 200px 200px 100px 100px;
+  position: relative;
+  left: 150px;
+}
+#nube1::after{
+  content: '';
+  background-color: #FFF;
+  padding: 50px 70px;
+  border-radius: 100%;
+  position: relative;
+  left: 130px;
+  top: 65px;
+}
+#nube1::before{
+  content: '';
+  background-color: #FFF;
+  padding: 50px 70px;
+  border-radius: 100%;
+  position: relative;
+  left: -19px;
+  top: 83px;
+}
+
+#nube2{
+  width: 250px;
+  height: 150px;
+  background-color: #FFF;
+  border-radius: 200px 200px 100px 100px;
+  position: relative;
+  top: -250px;
+  left: 1400px;
+}
+#nube2::after{
+  content: '';
+  background-color: #FFF;
+  padding: 50px 70px;
+  border-radius: 100%;
+  position: relative;
+  left: 130px;
+  top: 65px;
+}
+#nube2::before{
+  content: '';
+  background-color: #FFF;
+  padding: 50px 70px;
+  border-radius: 100%;
+  position: relative;
+  left: -19px;
+  top: 83px;
+}
+.flor{
+position: relative;
+left: 500px;
+animation-name: flor;
+animation-duration: 5s;
+animation-timing-function: ease;
+animation-iteration-count: 2;
+}
+@keyframes flor {
+from{
+transform: rotate(0deg);
+transform-origin: 0 100px;
+}
+to{
+transform: rotate(360deg);
+transform-origin: 0 100px;
+}
+}
+.petalo{
+  width: 50px;
+  height: 100px;
+  background-color: #DB7093;
+  border-radius: 90px 0 90px 0;
+}
+
+.p2{
+  transform: translateY(-100px) rotate(60deg);
+  transform-origin: 0 100px;
+}
+.p3{
+  transform: translateY(-200px) rotate(120deg);
+  transform-origin: 0 100px;
+}
+.p4{
+  transform: translateY(-300px) rotate(180deg);
+  transform-origin: 0 100px;
+}
+.p5{
+  transform: translateY(-400px) rotate(240deg);
+  transform-origin: 0 100px;
+}
+.p6{
+  transform: translateY(-500px) rotate(300deg);
+  transform-origin: 0 100px;
+}
+
+.circulo1{
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  border-radius: 25px;
+  position: relative;
+  top: -525px;
+  left: -25px;
+}
+
+
+
+
+.flor2{
+position: relative;
+left: 800px;
+top: -640px;
+animation-name: flor2;
+animation-duration: 5s;
+animation-timing-function: ease;
+animation-iteration-count: 2;
+}
+@keyframes flor2 {
+from{
+transform: rotate(0deg);
+transform-origin: 0 100px;
+}
+to{
+transform: rotate(360deg);
+transform-origin: 0 100px;
+}
+}
+.petalo{
+  width: 50px;
+  height: 100px;
+  background-color: #DB7093;
+  border-radius: 90px 0 90px 0;
+}
+
+.p2{
+  transform: translateY(-100px) rotate(60deg);
+  transform-origin: 0 100px;
+}
+.p3{
+  transform: translateY(-200px) rotate(120deg);
+  transform-origin: 0 100px;
+}
+.p4{
+  transform: translateY(-300px) rotate(180deg);
+  transform-origin: 0 100px;
+}
+.p5{
+  transform: translateY(-400px) rotate(240deg);
+  transform-origin: 0 100px;
+}
+.p6{
+  transform: translateY(-500px) rotate(300deg);
+  transform-origin: 0 100px;
+}
+
+.circulo1{
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  border-radius: 25px;
+  position: relative;
+  top: -525px;
+  left: -25px;
+}
