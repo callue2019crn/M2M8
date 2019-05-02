@@ -3,7 +3,7 @@
     background-color:#33ccff;
   }
   #cuerpo{
-    width: 400px;
+    width: 250px;
     margin: auto;
 
   }
@@ -17,7 +17,7 @@
     padding: 0;
   }
   #caja{
-    height: 350px;
+    height: 300px;
     width: auto;
     background: yellow;
       overflow:auto;
@@ -27,7 +27,7 @@
     height: 180px;
     width: 130px;
     background: red;
-    margin: 10px 20px 10px 35px;
+    margin: 10px 10px 10px 20px;
     float: left;
   }
   #maps{
