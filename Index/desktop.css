@@ -1,0 +1,15 @@
+@media screen and (min-width: 769px){
+  body{
+    background-color: #E6E6FA;
+  }
+
+#menu li{
+  display: inline-block;
+  padding: 20px;
+  border-right: solid 1px #FFF;
+  color: #FFF;
+}
+li{
+  list-style-type: none;
+}
+}
