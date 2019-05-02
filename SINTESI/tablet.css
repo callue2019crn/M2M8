@@ -2,6 +2,9 @@
   body{
     background-color: #ccffff;
 }
+h1{
+  text-align: center;
+}
 #cabezal{
   height: 50px;
   background: pink;
@@ -12,22 +15,31 @@
   height: 350px;
   width: auto;
   background: yellow;
+  overflow:auto;
 }
 
 #cajaspelis{
   height: 300px;
   width: 200px;
   background: red;
-  margin-top: 30px;
-  margin-left: 30px;
+  margin:10px 10px 10px 25px;
   float: left;
+
 }
 #maps{
-  width:auto;
-  height: 400px;
-  background: green;
-  margin-top:360px;
+ width: 365px;
+ height: 400px;
+ background-color: pink;
+ float: left;
 }
+.mapas{
+  width: 300px;
+  height: 300px;
+  background: lightblue;
+  margin: 30px;
+  padding: 0;
+
+
 .pelis{
   text-align: center;
 }

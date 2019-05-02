@@ -2,32 +2,54 @@
   body{
     background-color: #fff;
   }
-
+h1{
+  text-align: center;
+}
 #cabezal{
   height: 50px;
   background: pink;
   margin: 0;
   padding: 0;
 }
+#cuerpo{
+  width: 1300px;
+  height: 300px;
+  background-color: teal;
+  margin: auto;
+
+}
 #caja{
-  height: 350px;
+  height: 450px;
   width: auto;
   background: yellow;
+  overflow:auto;
 }
 
 #cajaspelis{
-  height: 300px;
-  width: 200px;
+  height: 400px;
+  width: 300px;
   background: red;
-  margin-top: 30px;
-  margin-left: 30px;
+  margin: 30px 30px 30px 75px;
+
   float: left;
+
 }
 #maps{
-  width:auto;
-  height: 400px;
-  background: green;
-  margin-top:360px;
+  background-color: pink;
+ width: 650px;
+ height: 400px;
+float: left;
+}
+.mapas{
+  width: 600px;
+  height: 350px;
+  background: lightblue;
+  margin: 25px;
+  padding: 0;
+
+
+
+
 }
 .pelis{
   text-align: center;
