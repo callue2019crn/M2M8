@@ -5,6 +5,10 @@
 h1{
   text-align: center;
 }
+#cuerpo{
+ width: 650px;
+ margin:auto;
+}
 #cabezal{
   height: 50px;
   background: pink;
@@ -16,31 +20,36 @@ h1{
   width: auto;
   background: yellow;
   overflow:auto;
+
 }
 
 #cajaspelis{
-  height: 300px;
-  width: 200px;
+  height: 250px;
+  width: 190px;
   background: red;
-  margin:10px 10px 10px 25px;
+  margin: 10px 30px 10px 70px;
   float: left;
+  border-radius: 2px;
 
 }
 #maps{
- width: 365px;
+ width: 320px;
  height: 400px;
  background-color: pink;
  float: left;
 }
 .mapas{
-  width: 300px;
-  height: 300px;
+  width: 270px;
+  height: 200px;
   background: lightblue;
   margin: 30px;
   padding: 0;
+  border-radius: 2px;
 
-
+}
 .pelis{
   text-align: center;
+
+
 }
 }
