@@ -3,7 +3,7 @@
     background-color:#33ccff;
   }
   #cuerpo{
-    width: 250px;
+    width: 350px;
     margin: auto;
 
   }
@@ -12,22 +12,22 @@
   }
   #cabezal{
     height: 50px;
-    background: yellow;
+    background: PINK;
     margin: 0;
     padding: 0;
   }
   #caja{
-    height: 300px;
+    height: 200px;
     width: auto;
     background: yellow;
-      overflow:auto;
+    overflow:auto;
   }
 
   #cajaspelis{
     height: 180px;
-    width: 130px;
+    width: 120px;
     background: red;
-    margin: 10px 10px 10px 20px;
+    margin: 10px 10px 10px 30px;
     float: left;
   }
   #maps{
