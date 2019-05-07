@@ -12,29 +12,32 @@ h1{
 #cabezal{
   height: 50px;
   background: pink;
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 #caja{
-  height: 350px;
+  height: 270px;
   width: auto;
   background: yellow;
-  overflow:auto;
-
-}
-
-#cajaspelis{
-  height: 250px;
-  width: 190px;
-  background: red;
-  margin: 10px 30px 10px 70px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
   float: left;
-  border-radius: 2px;
-
 }
+
+.pelis{
+  height: 200px;
+  width: 140px;
+  background: pink;
+  margin: 10px 30px 10px 70px;
+  display: inline-block;
+  border-radius: 2px;
+  text-align: center;
+}
+
 #maps{
  width: 320px;
- height: 400px;
+ height: 265px;
  background-color: pink;
  float: left;
 }
@@ -47,9 +50,18 @@ h1{
   border-radius: 2px;
 
 }
-.pelis{
-  text-align: center;
 
-
+#bloc{
+  background-color: purple;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 300%;
+  animation-name: pass;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+#bloc:hover{
+  animation-play-state: paused;
 }
 }

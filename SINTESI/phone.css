@@ -17,18 +17,22 @@
     padding: 0;
   }
   #caja{
-    height: 200px;
+    height: 250px;
     width: auto;
     background: yellow;
-    overflow:auto;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
   }
 
-  #cajaspelis{
+  .pelis{
     height: 180px;
     width: 120px;
-    background: red;
+    background: pink;
     margin: 10px 10px 10px 30px;
     float: left;
+    text-align: center;
   }
   #maps{
     width:auto;
@@ -38,7 +42,49 @@
     padding: 0;
   }
 
-  .pelis{
-    text-align: center;
+#bloc{
+  background-color: purple;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 1340px;
+  height: 250px;
+  -webkit-animation: pass 20s infinite;
+  animation: pass 20s infinite;
+}
+
+#bloc:hover{
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+@keyframes pass {
+  0%{
+    left: 0%;
   }
+  10%{
+    left: -160px;
+  }
+  20%{
+    left: -320px;
+  }
+  30%{
+    left: -480px;
+  }
+  40%{
+    left: -640px;
+  }
+  50%{
+    left: -800px;
+  }
+  60%{
+    left: -960px;
+  }
+  70%{
+    left: -1120px;
+  }
+  80%{
+    left: -1280px;
+  }
+}
 }

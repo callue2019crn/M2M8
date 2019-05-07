@@ -6,7 +6,7 @@ h1{
   text-align: center;
 }
 #cabezal{
-  height: 50px;
+  height: 35px;
   background: pink;
   margin: 0;
   padding: 0;
@@ -22,23 +22,17 @@ h1{
   height: 450px;
   width: auto;
   background: yellow;
-  overflow:auto;
-}
-
-#cajaspelis{
-  height: 400px;
-  width: 300px;
-  background: red;
-  margin: 30px 30px 30px 75px;
-
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
   float: left;
-
 }
+
 #maps{
   background-color: pink;
- width: 650px;
- height: 400px;
-float: left;
+  width: 650px;
+  height: 400px;
+  float: left;
 }
 .mapas{
   width: 600px;
@@ -46,12 +40,58 @@ float: left;
   background: lightblue;
   margin: 25px;
   padding: 0;
+}
 
-
-
-
+#bloc{
+  background-color: purple;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 300%;
+  -webkit-animation: pass 20s infinite;
+  animation: pass 20s infinite;
+}
+#bloc:hover{
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
 }
 .pelis{
+  height: 400px;
+  width: 300px;
+  background: pink;
+  margin: 30px 30px 30px 75px;
+  display:inline-block;
   text-align: center;
+
+}
+@keyframes pass {
+  0%{
+    left: 0%;
+  }
+  10%{
+    left: -450px;
+  }
+  20%{
+    left: -850px;
+  }
+  30%{
+    left: -1250px;
+  }
+  40%{
+    left: -1650px;
+  }
+  50%{
+    left: -2050px;
+  }
+  60%{
+    left: -2450px;
+  }
+  70%{
+    left: -2850px;
+  }
+  80%{
+    left: -3250px;
+  }
+
 }
 }
