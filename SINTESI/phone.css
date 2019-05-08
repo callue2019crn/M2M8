@@ -58,7 +58,7 @@
   animation-play-state: paused;
 }
 
-#bloc:focus{
+#bloc:active{
   -webkit-animation-play-state: paused;
   animation-play-state: paused;
 }
