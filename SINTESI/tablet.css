@@ -10,13 +10,18 @@ h1{
  margin:auto;
 }
 #cabezal{
-  height: 50px;
+  height: 45px;
   background: pink;
   margin: auto;
   padding: 0;
+  background-image:
+  url("img/logoo.png");
+  background-repeat: no-repeat;
+
+
 }
 #caja{
-  height: 270px;
+  height: 220px;
   width: auto;
   background: yellow;
   overflow: hidden;
@@ -25,15 +30,7 @@ h1{
   float: left;
 }
 
-.pelis{
-  height: 200px;
-  width: 140px;
-  background: pink;
-  margin: 10px 30px 10px 70px;
-  display: inline-block;
-  border-radius: 2px;
-  text-align: center;
-}
+
 
 #maps{
  width: 320px;
@@ -50,18 +47,56 @@ h1{
   border-radius: 2px;
 
 }
-
+.pelis{
+  height: 200px;
+  width: 140px;
+  background: pink;
+  margin: 10px 20px 10px 50px;
+  float: left;
+  text-align: center;
+}
 #bloc{
   background-color: purple;
   position: relative;
   top: 0;
   left: 0;
   width: 300%;
-  animation-name: pass;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
+  -webkit-animation: pass 20s infinite;
+  animation: pass 20s infinite;
 }
 #bloc:hover{
+  -webkit-animation-play-state: paused;
   animation-play-state: paused;
 }
+
+@keyframes pass {
+    0%{
+      left: 0%;
+    }
+    10%{
+      left: -210px;
+    }
+    20%{
+      left: -420px;
+    }
+    30%{
+      left: -630px;
+    }
+    40%{
+      left: -840px;
+    }
+    50%{
+      left: -1050px;
+    }
+    60%{
+      left: -1260px;
+    }
+    70%{
+      left: -1470px;
+    }
+    80%{
+      left: -1680px;
+    }
+  }
+
 }

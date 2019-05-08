@@ -11,13 +11,17 @@
     text-align: center;
   }
   #cabezal{
-    height: 50px;
-    background: PINK;
+    height: 45px;
+    background: white;
     margin: 0;
     padding: 0;
+    background-image:
+    url("img/logoo.png");
+    background-repeat: no-repeat;
+
   }
   #caja{
-    height: 250px;
+    height: 200px;
     width: auto;
     background: yellow;
     overflow: hidden;
@@ -47,8 +51,7 @@
   position: relative;
   top: 0;
   left: 0;
-  width: 1340px;
-  height: 250px;
+  width: 400%;
   -webkit-animation: pass 20s infinite;
   animation: pass 20s infinite;
 }
